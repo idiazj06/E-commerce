@@ -1,15 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/shop.css">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/style.css">
 
-    <title>E-Commerce</title>
+    <title>Shop</title>
 </head>
 
 <body>
@@ -63,7 +64,6 @@
         </header>
     </header>
 
-
     <main id="principal">
         <div class="barraPrincipal">
 
@@ -94,46 +94,28 @@
                 </div>
             </nav>
         </div>
-        <div class="carruselPrincipal">
-            <div class="contenedor">
-                <div class="carrusel-header ">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYxjjgtCkB09oPbpMKdjXraaOZIBWA1Pd4CpoIbvbaD6h5RDrJxm_W0D6qEygSFji24dw&usqp=CAU"
-                                    class="d-block img-header" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1_Ghr5v1DzY8qVAY4-eB-N8mfDHVeG63qs0stTndDwa2rfECoAeulS4EtNQC1QLEJbEQ&usqp=CAU"
-                                    class="d-block img-header" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlD6H7D0ivGHcI4aptqst3GNuMR9YTS0RdG7wH_k7rTYPRwdIbqG1an5GCrviGnr05_gs&usqp=CAU."
-                                    class="d-block img-header" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+
+        <div id="items"></div>
+
+        <template id="template-cards">
+            <div class="card">
+                <div class="body">
+                    <div class="card-body cuerpo-img">
+                        <img class="imagen-card" src="https://asset.msi.com/resize/image/global/product/product_9_20190903100138_5d6dc982beadc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+                            alt="MSI Prestige">
+                    </div>
+                    <div class="card-body cuerpo-card">
+                        <h5 class="card-title">nombre</h5>
+                        <p class="card-text">precio</p>
+                    </div>
+                    <div class="card-body cuerpo-boton">
+                        <a href="#" class="btn btn-primary btn-comprar">Comprar</a>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="cardsPrincipal">
-            <img class="img-card-1" src="https://storage-asset.msi.com/global/picture/image/feature/nb/Prestige/Prestige15/kv-nb.png"
-                alt="">
-            <img class="img-card-1"
-                src="https://www.intel.la/content/dam/products/hero/foreground/desktops-hero-16x9.png.rendition.intel.web.480.270.png" alt="">
-        </div>
+        </template>
     </main>
+
 
 
     <footer id="piePagina">
@@ -157,11 +139,12 @@
         </div>
     </footer>
 
-
-    <script src="./scripts/script.js" type="module"></script>
+    <script src="./scripts/shop.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
     </script>
+
+
 </body>
 
 </html>

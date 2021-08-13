@@ -1,0 +1,36 @@
+
+body{
+    background:rgb(238, 238, 238)
+}
+
+.carruselPrincipal{
+    display: block;
+    width: 90vw;
+    margin: auto;
+}
+
+ .img-header{
+    width: 100%;
+    max-width: 600px;
+    max-height: 500px;
+    height:500px;
+    object-fit: cover;
+    margin:  auto; 
+} 
+
+.nav-center{
+    margin-left: 50%;
+}
+
+.cardsPrincipal{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-card-1{
+    width:500px;
+    object-fit: cover;
+    padding: 50px;
+}
