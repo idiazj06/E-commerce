@@ -1,0 +1,75 @@
+[
+    {
+
+        "id": 1,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://asset.msi.com/resize/image/global/product/product_9_20190903100138_5d6dc982beadc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "nombre": "MSI Prestige"
+    },
+    {
+        "id": 2,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://www.lenovo.com/medias/lenovo-laptop-legion-y520-15-front.png?context=bWFzdGVyfGltYWdlc3wyNzI1M3xpbWFnZS9wbmd8aW1hZ2VzL2hiMS9oMDQvOTQxMjY3NTUwMjExMC5wbmd8YjYxMzUxYzUwZDcyNmEyYjJmN2Y1MmQyZTAxYmI4NmY5Yjg4N2Y0ZjIxMWI0YzYyMTM3YTBiZmMyYjZjZGY4Ng",
+        "nombre": "Lenovo Y520-15IBK"
+    },
+    {
+        "id": 3,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://www.pikpng.com/pngl/m/268-2686177_lenovo-ideapad-330-i5-notebook-ideapad-330-lenovo.png",
+        "nombre": "Lenovo Ideapad 330"
+    },
+    {
+        "id": 4,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/151520-laptops-review-hands-on-apple-macbook-air-2020-initial-review-keyboard-dreams-become-a-reality-image1-dwyvdpnsl7.jpg",
+        "nombre": "Apple MacBook Air"
+    },
+    {
+        "id": 5,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://1.bp.blogspot.com/-LC6ndQle1b8/XHiXuOdordI/AAAAAAAAAiE/r7FHRdXFz8YjOERsAMtYva0SLKPR8DFtwCLcBGAs/s1600/HP%2B15-da1013ns..jpg",
+        "nombre": "HP 15-da1013ns"
+    },
+    {
+        "id": 6,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://www.lenovo.com/medias/lenovo-laptop-legion-y520-15-front.png?context=bWFzdGVyfGltYWdlc3wyNzI1M3xpbWFnZS9wbmd8aW1hZ2VzL2hiMS9oMDQvOTQxMjY3NTUwMjExMC5wbmd8YjYxMzUxYzUwZDcyNmEyYjJmN2Y1MmQyZTAxYmI4NmY5Yjg4N2Y0ZjIxMWI0YzYyMTM3YTBiZmMyYjZjZGY4Ng",
+        "nombre": "Huawei MateBook D"
+    },
+    {
+        "id": 7,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://www.pikpng.com/pngl/m/268-2686177_lenovo-ideapad-330-i5-notebook-ideapad-330-lenovo.png",
+        "nombre": "Lenovo Ideapad 120s"
+    },
+    {
+        "id": 8,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://www.lenovo.com/medias/lenovo-laptop-legion-y520-15-front.png?context=bWFzdGVyfGltYWdlc3wyNzI1M3xpbWFnZS9wbmd8aW1hZ2VzL2hiMS9oMDQvOTQxMjY3NTUwMjExMC5wbmd8YjYxMzUxYzUwZDcyNmEyYjJmN2Y1MmQyZTAxYmI4NmY5Yjg4N2Y0ZjIxMWI0YzYyMTM3YTBiZmMyYjZjZGY4Ng",
+        "nombre": "LG Gram 17Z990-V"
+    },
+    {
+        "id": 9,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://www.pikpng.com/pngl/m/268-2686177_lenovo-ideapad-330-i5-notebook-ideapad-330-lenovo.png",
+        "nombre": "CHUWI HeroBook Pro"
+    },
+    {
+        "id": 10,
+        "tipo": "portatil",
+        "precio": 5500000,
+        "imagen": "https://www.lenovo.com/medias/lenovo-laptop-legion-y520-15-front.png?context=bWFzdGVyfGltYWdlc3wyNzI1M3xpbWFnZS9wbmd8aW1hZ2VzL2hiMS9oMDQvOTQxMjY3NTUwMjExMC5wbmd8YjYxMzUxYzUwZDcyNmEyYjJmN2Y1MmQyZTAxYmI4NmY5Yjg4N2Y0ZjIxMWI0YzYyMTM3YTBiZmMyYjZjZGY4Ng",
+        "nombre": " ASUS Chromebook Flip C434"
+    }
+
+
+]
