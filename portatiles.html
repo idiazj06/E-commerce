@@ -1,87 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/modal.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/modal.css" />
     <title>pruebas</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="cabecera">
-        <h2>Electronica</h2>
-        <form id="form">
-            <input type="text" id="search" class="search" placeholder="Search" />
-        </form>
+      <h2>Electronica</h2>
+      <form id="form">
+        <input type="text" id="search" class="search" placeholder="🔎Search" />
+      </form>
     </header>
 
     <main id="principal">
-        <div class="barra">
-            <div class="items-barra">
-                <h2>MENÚ</h2>
-                <a href="#">🛒</a>
-            </div>
+      <div class="barra">
+        <div class="items-barra">
+          <h2>MENÚ</h2>
+          <a href="#">🛒</a>
         </div>
+      </div>
 
-        <div id="items"></div>
+      <div id="items"></div>
+      <div id="modal">
+        <div id="miModal" class="modal">
+          <div class="modal-contenido">
+            <a href="#" class="boton-cerrar">❌</a>
+            <div class="contenido-cuerpo">
+              <div class="contenido">
+                <h2>TITULO</h2>
+                <img
+                  src="https://asset.msi.com/resize/image/global/product/product_9_20190903100138_5d6dc982beadc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+                  alt=""
+                  class="img-items-modal"
+                />
+                <p>PRECIO</p>
+                <a href="#" class="agregar-carrito">AGREGAR AL CARRITO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <template class="template-cards">
+        <div class="cards" id="cards">
+          <div class="items-cards">
+            <h2 class="titulo-card">TITULO</h2>
+            <img
+              src="https://asset.msi.com/resize/image/global/product/product_9_20190903100138_5d6dc982beadc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+              alt=""
+              class="img-items-cards"
+            />
+            <p>PRECIO</p>
+            <a href="#miModal" class="btn">MAS INFORMACION</a>
+          </div>
+        </div>
+      </template>
+
+      <template class="template-footer">
         <div id="modal">
-            <div id="miModal" class="modal">
-                <div class="modal-contenido">
-                    <a href="#" class="boton-cerrar">❌</a>
-                    <div class="contenido-cuerpo">
-                        <div class="contenido">
-                            <h2>TITULO</h2>
-                            <img src="https://asset.msi.com/resize/image/global/product/product_9_20190903100138_5d6dc982beadc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
-                            alt="" class="img-items-modal">
-                            <p>PRECIO</p>
-                            <a href="#" class="agregar-carrito">AGREGAR AL CARRITO</a>
-                        </div>
-                    </div>
+          <div id="miModal" class="modal">
+            <div class="modal-contenido">
+              <a href="#" class="boton-cerrar">❌</a>
+              <div class="contenido-cuerpo">
+                <div class="contenido">
+                  <h2>TITULO</h2>
+                  <img
+                    src="https://asset.msi.com/resize/image/global/product/product_9_20190903100138_5d6dc982beadc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+                    alt=""
+                    class="img-items-modal"
+                  />
+                  <p>PRECIO</p>
+                  <a href="#" class="agregar-carrito">asdasd</a>
                 </div>
+              </div>
             </div>
-        </div> 
-
-        <template class="template-cards">
-            <div class="cards" id="cards">
-                <div class="items-cards">
-                    <h2 class="titulo-card">TITULO</h2>
-                    <img src="https://asset.msi.com/resize/image/global/product/product_9_20190903100138_5d6dc982beadc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
-                        alt="" class="img-items-cards">
-                    <p>PRECIO</p>
-                    <a href="#miModal" class="btn">MAS INFORMACION</a>
-                </div>
-            </div>
-        </template>
-
-        <template class="template-footer">
-            <div id="modal">
-                <div id="miModal" class="modal">
-                    <div class="modal-contenido">
-                        <a href="#" class="boton-cerrar">❌</a>
-                        <div class="contenido-cuerpo">
-                            <div class="contenido">
-                                <h2>TITULO</h2>
-                                <img src="https://asset.msi.com/resize/image/global/product/product_9_20190903100138_5d6dc982beadc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
-                                alt="" class="img-items-modal">
-                                <p>PRECIO</p>
-                                <a href="#" class="agregar-carrito">asdasd</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </template>
-
-        
-
+          </div>
+        </div>
+      </template>
     </main>
 
-
     <script src="./scripts/script.js"></script>
-
-</body>
-
-
+  </body>
 </html>
