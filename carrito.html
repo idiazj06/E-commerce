@@ -22,11 +22,10 @@
     <main id="principal">
         <div class="barra">
             <div class="items-barra">
-                <h2>MENÚ</h2>
-                <a href="#">🛒</a>
-                <span id="cantAcc">1</span>
+              <h2></h2>
+              <a href="#">🛒</a>
             </div>
-        </div>
+          </div>
 
 
 
@@ -66,9 +65,9 @@
                     <div class="contenido-cuerpo">
                         <div class="contenido">
                             <div class="container">
-                                <form action="">
+                                <form action="" id="formularioPago">
                                     <h2>Informacion de pago</h2>
-                                    <input type="text" placeholder="Nombre Completo" id="nombre">
+                                    <input type="text" placeholder="Nombre Completo" id="name">
                                     <input type="email" name="email" id="email" placeholder="Igrese su email">
                                     <input type="number" name="numeroTarjeta" id="numeroTarjeta"
                                         placeholder="No. de tarjeta">
@@ -76,7 +75,7 @@
                                         <input type="number" name="fVen" id="fVenc" placeholder="F.Vencimiento MM/AA">
                                         <input type="number" name="cvv" id="CVV" placeholder="CVV">
                                     </div>
-                                    <button type="submit" name="pagar" id="btn-pagar" class="btn-primary">PAGAR</button>
+                                    <button type="submit" name="pagar" id="btn-pagar" class="btn-primary btn-pagar">PAGAR</button>
                                 </form>
                             </div>
                         </div>
@@ -171,6 +170,7 @@
 
 
     <script src="./scripts/carrito.js"></script>
+    <script src="./scripts/formPago.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
     </script>

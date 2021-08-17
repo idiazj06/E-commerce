@@ -48,6 +48,11 @@ header h2 {
     cursor: pointer;
 }
 
+#principal {
+    width: 98%;
+    margin: auto;
+}
+
 /* MAIN */
 #principal {
     width: 98%;
@@ -55,7 +60,7 @@ header h2 {
 }
 
 .barra {
-    background-color: blue;
+    background-color: whitesmoke;
 }
 
 .items-barra {

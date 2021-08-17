@@ -81,12 +81,7 @@ const setModal = objeto => {
         precio: objeto.querySelector('p').textContent,
         cantidad:1     
     }
-
     
-
-
-
-
     botonModal[producto.id] = {
         ...producto
     }
