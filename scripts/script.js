@@ -1,7 +1,8 @@
 let items = document.getElementById('items');
 const fragment = document.createDocumentFragment();
 const templateCards = document.querySelector('.template-cards').content
-let carrito = {}
+let modal = document.getElementById('modal');
+let botonModal = {}
 
 
 
@@ -12,6 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
 items.addEventListener('click', e => {
     addModal(e)
 })
+
+
+
 
 const fetchData = async () => {
     try {
@@ -55,7 +59,7 @@ const pintarCards = data => {
     })
     items.appendChild(fragment)
 
-    
+
 }
 
 const addModal = e => {
@@ -68,35 +72,61 @@ const addModal = e => {
 
 const setModal = objeto => {
 
+    console.log(objeto)
+
     let producto = {
         id: objeto.querySelector('.btn').dataset.id,
-        imagen: objeto.querySelector('img').src,        
+        nombre: objeto.querySelector('.titulo-card').textContent,
+        imagen: objeto.querySelector('img').src,
+        precio: objeto.querySelector('p').textContent,
+        cantidad:1     
+    }
+
+    
+
+
+
+
+    botonModal[producto.id] = {
+        ...producto
     }
 
 
-    
+    pintarListaModal()
 
-    carrito[producto.id] = { ...producto }
-
-    
-     pintarLista()
+    console.log(producto.id)
+    console.log(botonModal)
+    console.log(botonModal[producto.id])
 }
 
-const pintarLista = () => {
+const pintarListaModal = () => {
 
-    const num = Object.values(carrito).length
-    const valorImagen = Object.values(carrito) 
-    const imagenMostrar = valorImagen[num-1]
+    const num = Object.values(botonModal).length
+    const valores = Object.values(botonModal)
+    const valoresMostrar = valores[num - 1]
+    
 
-    console.log(num)
-    console.log(valorImagen)
-    console.log(imagenMostrar.imagen)
 
-    document.querySelector('.img-items-modal').setAttribute('src', imagenMostrar.imagen)
-     
+    document.querySelector('.img-items-modal').setAttribute('src', valoresMostrar.imagen)
+    document.querySelector('.agregar-carrito').dataset.id = valoresMostrar.id
+    document.getElementById('titulo-modal').textContent = valoresMostrar.nombre
+    document.getElementById('precio-modal').textContent = valoresMostrar.precio
+
+    console.log(valores)
+
+    console.log(document.querySelector('.btn-informacion'))
+
+    document.querySelector('.btn-informacion').addEventListener('click', agregarCarrito)
+
+    
+
+    function agregarCarrito(){        
+        
+        localStorage.setItem('valores', JSON.stringify(valores))
+        localStorage.setItem('carrito', JSON.stringify(botonModal))
+        
+    }
+    
 }
-
-
-
 
 

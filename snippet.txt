@@ -3,29 +3,36 @@ const fragment = document.createDocumentFragment();
 const templateFooter = document.getElementById('template-footer').content;
 const templateCarrito = document.getElementById('template-carrito').content;
 const footer = document.getElementById('footer')
-var carrito = {}
+let carrito = {}
+
+
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     if (localStorage.getItem('carrito')) {
-        carrito = JSON.parse(localStorage.getItem('carrito'))
+        carrito = JSON.parse(localStorage.getItem('prueba'))
     }
-    
+    // setLista()
     pintarLista()
 
 })
 
 
-items.addEventListener('click', e => {    
-    // addAcciones(e)
+items.addEventListener('click', e => {
     btnAccion(e)
+
 })
 
 
-const pintarLista = () => {
 
-    console.log(carrito)
+
+
+
+
+const pintarLista = () => {
     items.innerHTML = ''
-    
+
     Object.values(carrito).forEach(producto => {
 
         // console.log(producto)
@@ -42,15 +49,16 @@ const pintarLista = () => {
     items.appendChild(fragment)
     pintarFooter()
 
-    console.log(Object.keys(carrito).length)
-    console.log(document.querySelector('#cantAcc').textContent)
-    document.querySelector('#cantAcc').textContent = Object.keys(carrito).length
+    localStorage.setItem('prueba', JSON.stringify(carrito))
 
-    
 }
 
+
+
+
+
 const pintarFooter = () => {
-    
+
 
     footer.innerHTML = ''
     if (Object.keys(carrito).length === 0) {
@@ -81,10 +89,8 @@ const pintarFooter = () => {
         pintarLista()
 
     })
-    
-    
+}
 
- }
 
 
 
@@ -110,14 +116,9 @@ const btnAccion = e => {
         pintarLista() 
     }
 
+    e.stopPropagation()
     
 
-    e.stopPropagation()   
+    
 
 }
-
-
-
-
-
-

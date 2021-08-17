@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/carrito.css">
     <title>pruebas</title>
 </head>
@@ -22,6 +24,7 @@
             <div class="items-barra">
                 <h2>MENÚ</h2>
                 <a href="#">🛒</a>
+                <span id="cantAcc">1</span>
             </div>
         </div>
 
@@ -52,6 +55,7 @@
         <template id="template-footer">
             <th scope="row" colspan="2">Titulos Seleccionados</th>
             <td>10</td>
+            <td><span>precio</span></td>
             <td>
                 <button class="btn btn-danger btn-sm" id="vaciar-carrito">
                     vaciar todo
@@ -60,16 +64,21 @@
         </template>
 
         <template id="template-carrito">
-            <tr>
-                <th scope="row">id</th>
-                <td>Café</td>
-                <td>1</td>
+            <tr id="algo">
+                <th scope="row" id="id">id</th>
+                <td id="nombre">Café</td>
+                <td id="cantidad">1</td>   
+                <td id="precio">1</td>             
                 <td>
 
-                    <button class="btn btn-danger btn-sm">
+                    <button class="btn btn-mas btn-primary">
+                        +
+                    </button>
+                    <button class="btn btn-menos btn-danger">
                         -
                     </button>
                 </td>
+                
 
             </tr>
         </template>
@@ -81,6 +90,9 @@
 
 
     <script src="./scripts/carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
 
 </body>
 
