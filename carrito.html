@@ -28,6 +28,8 @@
             </div>
         </div>
 
+
+
         <div class="contenedor">
             <h1 class="text-danger">Mi lista</h1>
             <hr>
@@ -50,10 +52,63 @@
                     <tr id="footer">
                         <th scope="row" colspan="5">Lista vacia - Agrega algun titulo!</th>
                     </tr>
+
                 </tfoot>
             </table>
+            <a href="#miModal" id="boton-pagar"><button class="btn-primary btn btn-pagar">Pagar</button></a>
 
         </div>
+
+        <div id="modal">
+            <div id="miModal" class="modal1">
+                <div class="modal-contenido">
+                    <a href="#" class="boton-cerrar">❌</a>
+                    <div class="contenido-cuerpo">
+                        <div class="contenido">
+                            <div class="container">
+                                <form action="">
+                                    <h2>Informacion de pago</h2>
+                                    <input type="text" placeholder="Nombre Completo" id="nombre">
+                                    <input type="email" name="email" id="email" placeholder="Igrese su email">
+                                    <input type="number" name="numeroTarjeta" id="numeroTarjeta"
+                                        placeholder="No. de tarjeta">
+                                    <div class="infoTarjet">
+                                        <input type="number" name="fVen" id="fVenc" placeholder="F.Vencimiento MM/AA">
+                                        <input type="number" name="cvv" id="CVV" placeholder="CVV">
+                                    </div>
+                                    <button type="submit" name="pagar" id="btn-pagar" class="btn-primary">PAGAR</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <template id="template-footer">
             <th scope="row" colspan="2">Titulos Seleccionados</th>
@@ -72,8 +127,8 @@
             <tr id="algo">
                 <th scope="row" id="id">id</th>
                 <td id="nombre">Café</td>
-                <td id="cantidad">1</td>   
-                <td id="precio">1</td>             
+                <td id="cantidad">1</td>
+                <td id="precio">1</td>
                 <td>
 
                     <button class="btn btn-mas btn-primary">
@@ -83,8 +138,8 @@
                         -
                     </button>
                 </td>
-                <td id="subtotal">1</td> 
-                
+                <td id="subtotal">1</td>
+
 
             </tr>
         </template>
@@ -92,8 +147,8 @@
             <tr id="algo">
                 <th scope="row" id="id">id</th>
                 <td id="nombre">Café</td>
-                <td id="cantidad">1</td>   
-                <td id="precio">1</td>             
+                <td id="cantidad">1</td>
+                <td id="precio">1</td>
                 <td>
 
                     <button class="btn btn-mas2 btn-primary">
@@ -103,14 +158,14 @@
                         -
                     </button>
                 </td>
-                <td id="subtotal">1</td> 
-                
+                <td id="subtotal">1</td>
+
 
             </tr>
         </template>
-        
 
-        
+
+
 
     </main>
 
