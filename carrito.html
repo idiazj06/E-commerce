@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/carrito.css">
-    <title>pruebas</title>
+    <title>Carrito</title>
 </head>
 
 <body>
@@ -38,11 +38,14 @@
                         <th scope="col">#</th>
                         <th scope="col">Item</th>
                         <th scope="col">Cantidad</th>
+                        <th scope="col">Precio</th>
                         <th scope="col">Acción</th>
+                        <th scope="col">SubTotal</th>
 
                     </tr>
                 </thead>
                 <tbody id="items"></tbody>
+                <tbody id="items2"></tbody>
                 <tfoot>
                     <tr id="footer">
                         <th scope="row" colspan="5">Lista vacia - Agrega algun titulo!</th>
@@ -55,11 +58,13 @@
         <template id="template-footer">
             <th scope="row" colspan="2">Titulos Seleccionados</th>
             <td>10</td>
-            <td><span>precio</span></td>
+            <td><span></span></td>
             <td>
                 <button class="btn btn-danger btn-sm" id="vaciar-carrito">
                     vaciar todo
                 </button>
+            </td>
+            <td><span id="total">3</span></td>
 
         </template>
 
@@ -78,6 +83,27 @@
                         -
                     </button>
                 </td>
+                <td id="subtotal">1</td> 
+                
+
+            </tr>
+        </template>
+        <template id="template-carrito2">
+            <tr id="algo">
+                <th scope="row" id="id">id</th>
+                <td id="nombre">Café</td>
+                <td id="cantidad">1</td>   
+                <td id="precio">1</td>             
+                <td>
+
+                    <button class="btn btn-mas2 btn-primary">
+                        +
+                    </button>
+                    <button class="btn btn-menos2 btn-danger">
+                        -
+                    </button>
+                </td>
+                <td id="subtotal">1</td> 
                 
 
             </tr>

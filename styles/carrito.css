@@ -14,38 +14,41 @@ body {
 }
 
 /* HEADER */
+/* HEADER */
 #cabecera {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: red;
+    background-color: #000001;
 }
 
 header h2 {
     color: #fff;
+    font-size:36px;
 }
 
 .search {
     background-color: transparent;
-    border: 2px solid white;
-    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
     font-family: inherit;
     font-size: 1rem;
     padding: 0.5rem;
-    color: white;
+    color: rgb(0, 0, 0);
+    outline: none;
     text-align: center;
 }
 
 .search::placeholder {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .search:hover {
-    background-color: lightslategray;
+    cursor: pointer;
 }
 
-/* MAIN */
 #principal {
     width: 98%;
     margin: auto;
