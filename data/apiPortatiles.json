@@ -3,71 +3,71 @@
 
         "id": 1,
         "tipo": "portatil",
-        "precio": 5500000,
+        "precio": 2999999,
         "imagen": "https://asset.msi.com/resize/image/global/product/product_9_20190903100138_5d6dc982beadc.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
         "nombre": "MSI Prestige"
     },
     {
         "id": 2,
         "tipo": "portatil",
-        "precio": 5500000,
+        "precio": 7600000,
         "imagen": "https://www.lenovo.com/medias/lenovo-laptop-legion-y520-15-front.png?context=bWFzdGVyfGltYWdlc3wyNzI1M3xpbWFnZS9wbmd8aW1hZ2VzL2hiMS9oMDQvOTQxMjY3NTUwMjExMC5wbmd8YjYxMzUxYzUwZDcyNmEyYjJmN2Y1MmQyZTAxYmI4NmY5Yjg4N2Y0ZjIxMWI0YzYyMTM3YTBiZmMyYjZjZGY4Ng",
         "nombre": "Lenovo Y520-15IBK"
     },
     {
         "id": 3,
         "tipo": "portatil",
-        "precio": 5500000,
-        "imagen": "https://www.pikpng.com/pngl/m/268-2686177_lenovo-ideapad-330-i5-notebook-ideapad-330-lenovo.png",
+        "precio": 2700000,
+        "imagen": "https://triplec.ec/wp-content/uploads/2018/08/lenovo-ideapad-330s-core-i5-8250u-1.jpg",
         "nombre": "Lenovo Ideapad 330"
     },
     {
         "id": 4,
         "tipo": "portatil",
-        "precio": 5500000,
+        "precio": 4400000,
         "imagen": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/151520-laptops-review-hands-on-apple-macbook-air-2020-initial-review-keyboard-dreams-become-a-reality-image1-dwyvdpnsl7.jpg",
         "nombre": "Apple MacBook Air"
     },
     {
         "id": 5,
         "tipo": "portatil",
-        "precio": 5500000,
+        "precio": 1800000,
         "imagen": "https://1.bp.blogspot.com/-LC6ndQle1b8/XHiXuOdordI/AAAAAAAAAiE/r7FHRdXFz8YjOERsAMtYva0SLKPR8DFtwCLcBGAs/s1600/HP%2B15-da1013ns..jpg",
         "nombre": "HP 15-da1013ns"
     },
     {
         "id": 6,
         "tipo": "portatil",
-        "precio": 5500000,
-        "imagen": "https://www.lenovo.com/medias/lenovo-laptop-legion-y520-15-front.png?context=bWFzdGVyfGltYWdlc3wyNzI1M3xpbWFnZS9wbmd8aW1hZ2VzL2hiMS9oMDQvOTQxMjY3NTUwMjExMC5wbmd8YjYxMzUxYzUwZDcyNmEyYjJmN2Y1MmQyZTAxYmI4NmY5Yjg4N2Y0ZjIxMWI0YzYyMTM3YTBiZmMyYjZjZGY4Ng",
+        "precio": 3000000,
+        "imagen": "https://img01.huaweifile.com/sg/ms/co/pms/product/6901443434787/800_800_961B3D56A6B8BB151FF27E7EC0620AAEE9A76713BB33E213mp.webp",
         "nombre": "Huawei MateBook D"
     },
     {
         "id": 7,
         "tipo": "portatil",
-        "precio": 5500000,
-        "imagen": "https://www.pikpng.com/pngl/m/268-2686177_lenovo-ideapad-330-i5-notebook-ideapad-330-lenovo.png",
+        "precio": 1300000,
+        "imagen": "https://asotea.com/2282-tm_thickbox_default/lenovo-ideapad-120s-11iap.jpg",
         "nombre": "Lenovo Ideapad 120s"
     },
     {
         "id": 8,
         "tipo": "portatil",
-        "precio": 5500000,
+        "precio": 2500000,
         "imagen": "https://www.lenovo.com/medias/lenovo-laptop-legion-y520-15-front.png?context=bWFzdGVyfGltYWdlc3wyNzI1M3xpbWFnZS9wbmd8aW1hZ2VzL2hiMS9oMDQvOTQxMjY3NTUwMjExMC5wbmd8YjYxMzUxYzUwZDcyNmEyYjJmN2Y1MmQyZTAxYmI4NmY5Yjg4N2Y0ZjIxMWI0YzYyMTM3YTBiZmMyYjZjZGY4Ng",
         "nombre": "LG Gram 17Z990-V"
     },
     {
         "id": 9,
         "tipo": "portatil",
-        "precio": 5500000,
-        "imagen": "https://www.pikpng.com/pngl/m/268-2686177_lenovo-ideapad-330-i5-notebook-ideapad-330-lenovo.png",
+        "precio": 1240000,
+        "imagen": "https://m.media-amazon.com/images/I/61zybWgNbbL._AC_SY355_.jpg",
         "nombre": "CHUWI HeroBook Pro"
     },
     {
         "id": 10,
         "tipo": "portatil",
-        "precio": 5500000,
-        "imagen": "https://www.lenovo.com/medias/lenovo-laptop-legion-y520-15-front.png?context=bWFzdGVyfGltYWdlc3wyNzI1M3xpbWFnZS9wbmd8aW1hZ2VzL2hiMS9oMDQvOTQxMjY3NTUwMjExMC5wbmd8YjYxMzUxYzUwZDcyNmEyYjJmN2Y1MmQyZTAxYmI4NmY5Yjg4N2Y0ZjIxMWI0YzYyMTM3YTBiZmMyYjZjZGY4Ng",
+        "precio": 2890000,
+        "imagen": "https://m.media-amazon.com/images/I/81VdqGTWeuL._AC_SL1500_.jpg",
         "nombre": " ASUS Chromebook Flip C434"
     }
 
