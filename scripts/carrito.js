@@ -71,10 +71,10 @@ const pintarLista = () => {
     items.appendChild(fragment)
     pintarFooter()
 
-    console.log(Object.keys(carrito).length)
-    console.log(document.querySelector('#cantAcc').textContent)
+    // console.log(Object.keys(carrito).length)
+    // console.log(document.querySelector('#cantAcc').textContent)
 
-    console.log(items)
+    // console.log(items)
 
 
 }
@@ -101,8 +101,9 @@ const pintarLista2 = () => {
     items2.appendChild(fragment)
     pintarFooter()
 
-    console.log(Object.keys(carrito).length)
-    console.log(document.querySelector('#cantAcc').textContent)
+    console.log(carrito2)
+    // console.log(Object.keys(carrito).length)
+    // console.log(document.querySelector('#cantAcc').textContent)
     // document.querySelector('#cantAcc').textContent = Object.keys(carrito).length + Object.keys(carrito2).length
 
     console.log(items2)
